@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Vitor Salgado</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body onresize="mudouTamanho()">
+    <span id="burguer" class="material-icons md-dark" onclick="clickMenu()">menu</span>
+    
+        <menu id="itens">
+            <ul>
+                <li><a href="#Sobre"onclick="clickMenu()">Sobre</a></li>
+                <li><a href="#projetos" onclick="clickMenu()">Projetos</a></li>
+                <li><a href="#cv" onclick="clickMenu()">CV</a></li>
+                <li><a href="#depoimento" onclick="clickMenu()">Depoimentos</a></li>
+                <li><a href="#contatos" onclick="clickMenu()">Contatos</a></li>
+            </ul>
+        </menu>
+        <header>      
+        <h1>Vitor Salgado</h1>
+        <h2>Iniciante em desenvolvimento de sistemas e web</h2>
+        <img src="imagens/Foto.jpg" alt="Foto de Vitor Salgado">
+        </header>
+    <main>
+        <section id="Sobre">
+            <p>"Estou iniciando na carreira de desenvolvimento de sistemas e web, estou terminando meu tecnólogo em análise e desenvolvimento de sistemas agora em dezembro de 2023, e pretendo ingressar nesse mundo do desenvolvimento. Durante a minha formação fiz vários cursos como:"</p>
+            <ul>
+                <li>Desenvolvimento Web Html, CSS</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>Python</li>
+                <li>Cypress.io</li>
+                <li>Excel + VGA + Power BI</li>
+            </ul>
+            <p>"E pretendo continuar me qualificando cada dia mais, próximos cursos que pretendo e em desenvolvimento Java e de implantação de serviços de inteligência artificial em nuvem."</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+        
+            <div id="linktree">
+                <a href="https://vitor-salgado.github.io/projeto-social/" target="_blank"><img src="imagens/linktree.jpg" alt="imagem de uma arvore representando um linktree" width="500px" height="500px"></a>
+                <p class="descricaoProjetos">
+                    Projeto criado para curso de desenvolvimento web utilizando HTML5 e CSS3, uma página de linktree com minhas redes sociais
+                </p>
+                <a class="linkProjetos" href="https://vitor-salgado.github.io/projeto-social/" target="_blank">Linktree</a>
+            </div>
+
+            <div id="cordel">
+                <a href="https://vitor-salgado.github.io/projeto-cordel/" target="_blank"><img src="imagens/Cordel.jpg" alt="Imagem de um poema" width="500px" height="500px"></a>
+                <p class="descricaoProjetos">
+                    Projeto criado para curso de desenvolvimento web utilizando HTML5 e CSS3, uma página de poema de cordel
+                </p>
+                <a class="linkProjetos" href="https://vitor-salgado.github.io/projeto-cordel/">Porjeto Cordel</a>
+            </div>
+        
+            
+                <div id="JS">
+                    <a href="https://github.com/Vitor-Salgado/Java-script" target="_blank"><img src="imagens/javascript.jpg" alt="Imagem de um computador e logo de JavaScript" width="500px" height="500px"></a>
+                    <p class="descricaoProjetos">
+                        Lista de exercícios postada no github durante o curso de JavaScript
+                    </p>
+                    <a class="linkProjetos" href="https://github.com/Vitor-Salgado/Java-script">Link do Repositório de JS</a>
+                </div>
+
+                <div id="Senai">
+                    <a href="https://github.com/Vitor-Salgado/Senai" target="_blank"><img src="imagens/Senai.png" alt="Logo do Senai" width="500px" height="250px"></a>
+                    <p class="descricaoProjetos">
+                        Site desenvolvidas durante o curso de desenvolvimento de páginas web e Manutenção de computadores realizado no Senai
+                    </p>
+                    <ul>
+                        <li><a class="linkProjetos" href="https://github.com/Vitor-Salgado/Senai">Link do Repositório do desenvolvimento web</a></li>
+                        <li><a class="linkProjetos" href="https://vitor-salgado.github.io/Senai-MMC/">Site de manutenção de computadores</a></li>
+                    </ul>
+                </div>    
+        </section>
+        <section id="cv">
+            <h2>Formação Acadêmica</h2>
+            <div id="formacao">
+                <div id="imagemFormacao"><img src="imagens/unip-universidade-paulista.jpg" alt="logo da unip" width="100px" height="100px"></div>
+                <div id="textoformacao">
+                    <p>
+                        Curso tecnólogo em análise e desenvolvimento de sistemas em regime EAD cursado de janeiro de 2022 a dezembro de 2023
+                    </p>
+                </div>
+            </div>
+                
+                <h4>Soft Skills</h4>
+                <ul id="soft">
+                    <li>Organização</li>
+                    <li>Pontualidade</li>
+                    <li>Sentimento de dono</li>
+                    <li>Aprendizado rápido</li>
+                    <li>Trabalho bem em grupo</li>
+                    <li>Lidero bem equipes</li>
+                    <li>Trabalho bem com pressão e prazos</li>
+                </ul>
+        </section>
+        <section id="depoimento">
+            <h2>Depoimentos</h2>
+            <p class="descricao">"O Vitor tem-se mostrado um profissional completo em desenvolvimento web ainda enquanto estudante. Possui uma extrema atenção a detalhes, e um espírito autônomo no alcance de novos conhecimentos. Busca refinar sua habilidade de resolução de problemas, encontrando soluções para os bugs e quebras de design."
+            </p>
+            <p class="descricao">
+                --Prof.ª Jackeline Ribeiro - Porfessora do Senai de Paulinia
+            </p>
+        </section>
+        <section id="contatos">
+            <h2>Contatos</h2>
+            <a href="https://wa.me/5519994980027" target="_blank"><img src="imagens/whats.png" alt="icone whatsapp" width="50px" height="50px"></a>
+            <a href="mailto:vitor.salgado.vs@gmail.com?subject=Portfolio" target="_blank"><img src="imagens/gmail.png" alt="icone do gmail" width="50px" height="50px" style="border-radius: 50%;"></a>
+            <a href="https://www.linkedin.com/in/vitor-augusto-de-freitas-salgado-9b0aa3246/" target="_blank"><img src="imagens/linkedin.jpg" alt="icone linkedin" width="50px" height="50px" style="border-radius: 50%;"></a>
+        </section>
+    </main>
+    
+    <script>
+        function clickMenu(){
+            if(itens.style.display ==   'block'){
+                itens.style.display = 'none'
+            }else{ 
+                itens.style.display = 'block' 
+            }
+            if(burguer.style.postion == 'sticky'){
+                burguer.style.postion = 'sticky'
+            }else{
+                burguer.style.postion = 'sticky'
+            }
+        }
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+<footer>
+    <p>Portfólio Criado por <a id="linkFooter" href="https://github.com/Vitor-Salgado">Vitor Salgado</a></p>
+</footer>
+</html>
