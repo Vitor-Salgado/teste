@@ -21,7 +21,7 @@ body{
 span{
     background-color: #136B53;
     display: block;
-    width: 93vw;
+    width: 93%;
     text-align: center;
     cursor: pointer;
     color: white;
@@ -106,7 +106,7 @@ h2#titule{
     padding: 10px;
 }
 
-a{
+a.linkProjetos{
     font-size: 1.5em;
     color: white;
     text-align: center;
@@ -124,6 +124,7 @@ div{
 }
 img{
     width: 90%;
+    padding-left: 15px;
 }
 
 img#unip{
@@ -131,6 +132,10 @@ img#unip{
     height: 115px;
 }
 
+#contatos{
+    text-align: center;
+    padding-bottom: 10px;
+}
 img#logoscontato{
     width: 50px;
     height: 50px;
@@ -143,16 +148,17 @@ img#logoscontato{
 #formacaounip{
     padding-top: 0;
 }
+
 footer{
     background-color: #136B53;
-    padding: 15px;;
 }
-a#linkFooter{
-    font-size: 1em;
-    padding: 0px;
+
+#linkFooter{
+    text-decoration: none;
+    color: white;
 }
-p#footer{
-    padding: 0px;
-    font-size: 1em;
-    line-height: 0px;
+
+#linkFooter:hover{
+    color: #003728;
 }
+
