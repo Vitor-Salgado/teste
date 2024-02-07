@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     width: 99.9%;
+    display: block;
    }
 
    menu > ul > li {
