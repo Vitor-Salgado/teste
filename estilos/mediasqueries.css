@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+   #burguer{
+    display: none;
+   } 
+
+   menu{
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    width: 99.9%;
+   }
+
+   menu > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    text-shadow: black 1px 1px;
+    width: 15%;
+    }
+
+    menu > ul > li > a.menuitens{
+    color: white;
+    width: 80%;
+    padding: 5px;
+    }
+
+    img#foto{
+        width: 650px;
+    }
+}
+ 
+@media screen and (min-width: 1440px){
+    .imagens{
+        max-height: 500px;
+        max-width: 650px;
+    }
+}
